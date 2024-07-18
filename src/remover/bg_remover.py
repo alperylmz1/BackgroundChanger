@@ -5,7 +5,7 @@ import rembg
 
 
 class Remover:
-    def __init__(self, img_path):
+    def __init__(self, img_path:str) -> None:
         self.img_path = img_path
         self.image = self.__import_image()
 
